@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@drawable/common_textfield_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="『如果将梦想作为信仰,不放弃地追求下去,一定会梦想成真的。』"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="来自:finger"
+        android:textColor="#aa000000"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="时间:03-30 22:33:55"
+        android:textColor="#aa000000"
+        android:textSize="13sp" />
+
+    <View  android:layout_marginLeft="5dp" android:layout_marginBottom="5dp" android:layout_marginRight="5dp" android:background="#33000000" android:layout_width="fill_parent" android:layout_height="0.1dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:focusable="false"
+            android:id="@+id/share"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+           
+            android:background="@drawable/message_comment_bg_selector"
+            android:src="@drawable/henu_comment_share_selctor" />
+
+        <ImageButton
+            android:focusable="false"
+            android:id="@+id/comment"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/message_comment_bg_selector"
+            android:src="@drawable/henu_message_comment_selector" />
+
+        <ImageButton
+         android:focusable="false"
+            android:id="@+id/like"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/message_comment_bg_selector"
+            android:src="@drawable/page_icon_unlike" />
+    </LinearLayout>
+
+</LinearLayout>

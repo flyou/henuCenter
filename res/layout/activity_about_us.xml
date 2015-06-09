@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#11111100" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/title_bar" >
+
+        <ImageButton
+            android:id="@+id/id_iv_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/showright_selector"
+            android:onClick="back" />
+
+        <TextView
+            android:id="@+id/tv_titlebar_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="关于我们"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/id_iv_right"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/right_selctor"
+            android:onClick="send"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/rl_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/henu_logo" />
+
+    <LinearLayout
+        android:id="@+id/operator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/icon"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/update"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/settings_first_item"
+            android:clickable="true"
+            android:drawableRight="@drawable/mm_submenu_normal"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:text="版本更新"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/weibo"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/settings_nomal_item"
+            android:clickable="true"
+            android:drawableRight="@drawable/mm_submenu_normal"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:text="官方微博"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/henu"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/settings_nomal_item"
+            android:clickable="true"
+            android:drawableRight="@drawable/mm_submenu_normal"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:text="河大在线"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/settings_last_item"
+            android:clickable="true"
+            android:drawableRight="@drawable/mm_submenu_normal"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:text="关于作者"
+            android:textColor="#000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="Copyright ©2014-2015 Designed by flyou "
+        android:textColor="#55000000"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/copyright"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        
+        android:text="Email：fangjaylong@qq.com"
+        android:textColor="#55000000"
+        android:textSize="12sp" />
+
+</RelativeLayout>

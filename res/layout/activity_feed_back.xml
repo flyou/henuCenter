@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fffef9"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/title_bar" >
+
+        <ImageButton
+            android:id="@+id/id_iv_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/showright_selector"
+            android:onClick="back" />
+
+        <TextView
+            android:id="@+id/tv_titlebar_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="用户反馈"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/id_iv_right"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/right_selctor"
+            android:onClick="send" />
+    </RelativeLayout>
+
+    <TextView
+        android:textColor="#454926"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_title"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="您的意见和建议" />
+
+    <EditText
+        android:gravity="top|left"
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_title"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/common_textfield_background"
+        android:hint="留下您对我们的希望和建议吧，我们会在第一时间处理的哦"
+        android:lines="10"
+        android:maxLines="15"
+        android:textSize="15sp" />
+ <TextView
+        android:textColor="#454926"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/message"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="QQ号码" />
+ 
+ <EditText
+     android:textSize="17sp"
+        android:id="@+id/qq"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/message"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/common_textfield_background"
+      
+        android:lines="10"
+        android:singleLine="true"
+       />
+</RelativeLayout>

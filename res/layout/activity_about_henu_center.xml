@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/title_bar" >
+
+        <ImageButton
+            android:id="@+id/id_iv_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/showright_selector"
+            android:onClick="back" />
+
+        <TextView
+            android:id="@+id/tv_titlebar_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="关于河大在线"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/id_iv_right"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/right_selctor"
+            android:onClick="send"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:textSize="12sp"
+        android:textColor="#22000000"
+        android:id="@+id/textline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+       
+        android:text="从未向你提起" >
+    </TextView>
+
+    <TextView
+        android:textColor="#66000000"
+        android:textSize="14sp"
+        android:id="@+id/textline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textline1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="我的梦想" >
+    </TextView>
+
+    <TextView
+        android:textColor="#88000000"
+        android:textSize="16sp"
+        android:id="@+id/textline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textline2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="是你~" >
+    </TextView>
+
+    <TextView
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:id="@+id/textline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textline3"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="你好河大在线" >
+    </TextView>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dip"
+    android:background="@drawable/card_bg" >
+
+    <ImageView
+        android:contentDescription="000000"
+        android:id="@+id/henu_image"
+        android:src="@drawable/default1"
+        android:layout_width="wrap_content"
+        android:layout_height="150dip"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/henu_image_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="@string/text2"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="#55363636"
+         />
+	<TextView
+        android:id="@+id/henu_image_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/henu_image"
+        android:padding="3dp"
+        android:text="@string/text1"
+        android:textSize="13sp"
+        android:textColor="@android:color/white"
+        android:background="#55363636"
+         />
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+<RelativeLayout
+        android:id="@+id/tv_title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/title_bar" >
+
+        <ImageButton
+            android:id="@+id/id_iv_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:visibility="gone"
+            android:background="@drawable/showright_selector"
+            android:onClick="back" />
+
+        <TextView
+            android:id="@+id/tv_titlebar_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="henuer的停机砰"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/id_iv_right"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:visibility="gone"
+            android:background="@drawable/henu_message_add_selector"
+            android:onClick="add" />
+    </RelativeLayout>
+    
+ 
+	<EditText 
+	    android:gravity="top|left"
+	  android:lines="5"
+	  android:maxLines="10"
+	    android:id="@+id/pager_ari_plance_content"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/tv_title"
+	    android:textColor="#aaaaaa"
+	    android:textSize="15sp"
+	    android:layout_marginTop="25dp"
+	    android:layout_marginLeft="10dp"
+	    android:background="@drawable/login_selector"
+	    android:hint="请输入航班宗旨(你想说的话哦)！"/>
+
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/pager_ari_plance_content"
+	    android:layout_marginTop="20dp" >
+
+	    <Button
+	        android:onClick="cancle"
+	        android:id="@+id/forget_passwd" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:text="取消航班"
+	        android:background="@drawable/main_login_selector"
+	        android:textColor="#ffffff"
+	        />
+	     <Button
+	         android:onClick="fly"
+	         android:id="@+id/login_login_btn"
+	        android:layout_width="100dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="20dp"
+	        android:layout_alignParentRight="true"
+	        android:text="起航"
+	        android:background="@drawable/main_login_selector"
+	        android:textColor="#ffffff"
+	        />
+	</RelativeLayout>
+
+</RelativeLayout>

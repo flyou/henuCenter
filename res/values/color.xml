@@ -1,0 +1,66 @@
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="blue">#37a7e9</color>
+    <color name="blue_pressed">#3094cf</color>
+    <color name="grey">#CFCFCF</color>
+    <color name="grey_dark">#B5B5B5</color>
+    <color name="yellow_warning">#FFFF99</color>
+    <color name="yellow_font_color">#FF6600</color>
+    <color name="white">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray">#666666</color>
+    <color name="dark_gray">#cfcfcf</color><!-- 表格的边框灰色线条 -->
+    <color name="light_gray">#f4f4f4</color><!-- 表格的灰色背景色值 -->
+    <color name="white_gray">#33000000</color><!-- 亮灰色 -->
+    
+    <color name="param_group_bg_color">#f7f7f7</color>
+    <color name="param_child_bg_color">#ebebeb</color>
+    
+    <!-- 
+     -->
+    <color name="blue">#6699CC</color>
+    <color name="more_gray">#333333</color>
+    <color name="black">#000000</color>
+    <color name="green">#009933</color>
+    <color name="iask_text_green">#4a9a2b</color>
+    <color name="internationnal_font_gray_color">#cccccc</color>
+    <color name="pop_chat_orange">#ff7900</color>
+    <color name="package_layout_bottom_gray">#9ca3a9</color>
+    
+    <color name="introduction_color_1">#c9cdd0</color>
+    <color name="introduction_color_2">#d4d7dc</color>
+    <color name="introduction_color_click">#d0f0d7</color>
+    
+    <color name="iask_ask_bg">#f0f0f0 </color>
+    <color name="iask_answer_question_count_color">#ff5a00 </color>
+    <color name="iask_bootom_bar_color_normal">#302f2f </color>
+    <color name="iask_bootom_bar_color_press">#000000 </color>
+    
+    <color name="iask_bootom_font_color_normal">#9a9a9a </color>
+    <color name="iask_bootom_font_color_press">#2c30f2 </color>
+    
+    <color name="iask_answer_title_color_normal">#c7c7c7</color>
+    
+    <color name="iask_answer_item_color_normal">#f2f2f2</color>
+    <color name="iask_answer_item_color_press">#e7e5e5</color>
+    <color name="iask_person_common_font_color">#070707</color>
+    <color name="iask_person_answer_title_color">#4b4b4b</color>
+    <color name="iask_person_answer_content_color">#5d5d5d</color>
+    <color name="iask_ask_count_keyword_font_color">#ff6600</color>
+    
+    <color name="main_page_submenu_bg_color">#1a913f</color>
+    <color name="main_page_submenu_bg_color_press">#157533</color>
+    
+    <color name="list_bg_color">#f5f5f5</color>
+    
+    <!-- 
+    <color name="holo_gray_color">#262c31</color>
+    <color name="holo_gray_color2">#4c5255</color>
+    <color name="holo_actionbar_bg">#303030</color>
+     -->
+       <color name="white">#ffffffff</color>
+    <color name="main_bg">#fff0f0f0</color>
+    <color name="grey">#ff58616d</color>
+    <color name="lightgrey">#ff888888</color>
+    <color name="blue1">#ff61a8de</color>
+</resources>
